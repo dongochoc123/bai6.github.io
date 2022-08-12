@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar {
+  border-bottom: 1px solid black;
+}
+.navbar-toggler {
+  margin-right: 20px;
+}
+.navbar-brand img {
+  max-width: 200px;
+  margin-left: 40px;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+.navbar-nav .nav-link {
+  color: black !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: initial;
+  font-size: 12px;
+}
+.navbar-nav .nav-link:hover {
+  color: red !important;
+  border-bottom: 1px solid red;
+  transition: 0.5s;
+}
+
+.card {
+  border: none;
+  max-width: 700px;
+  margin: 30px auto;
+}
+.card-img {
+  max-width: 700px;
+  max-height: 400px;
+}
+.card-body {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.card-title {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.wapper {
+  margin: auto;
+  max-width: 700px;
+}
+.wapper-h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wapper-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wapper .container-border {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+.wapper .container-border img {
+  max-width: 504px;
+  max-height: 176px;
+  margin-bottom: 20px;
+}
+.wapper .container-border p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.footer {
+  background-color: black;
+  max-height: 500px;
+  max-width: 100%;
+  color: white;
+}
+.footer-bottom p {
+  white-space: nowrap;
+  font-size: 22px;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+.footer-bottom p strong {
+  padding: 20px 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.footer-center {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.footer-center img {
+  margin-top: 40px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.footer-icon {
+  padding-bottom: 100px;
+}
+.footer-icon ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+.footer-icon li {
+  padding: 0px 20px;
+}
+.footer-icon a {
+  color: white;
+}
+.footer-icon a:hover {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
